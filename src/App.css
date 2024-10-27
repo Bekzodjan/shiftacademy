@@ -1,0 +1,2198 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg_navbar {
+  padding: 30px 110px;
+  height: min-content;
+  display: flex;
+  justify-content: space-between;
+}
+.bg_navbar img {
+  height: 44.8px;
+}
+.bg_navbar button {
+  /* call button */
+  width: 180px;
+  height: 50px;
+  border-radius: 10px;
+
+  background: rgb(49, 168, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.section1 {
+  /* Rectangle 52 */
+  /* position: absolute; */
+  width: 1300px;
+  height: 960px;
+  margin: auto;
+  border-radius: 25px;
+
+  box-shadow: inset -78.67px 78.67px 78.67px 0px rgba(255, 255, 255, 0.1),
+    inset 78.67px -78.67px 78.67px 0px rgba(165, 165, 165, 0.1);
+  backdrop-filter: blur(4px);
+  background: rgba(217, 217, 217, 0.1);
+}
+.section2 h2 {
+  /* “SHIFT ACADEMY” BU - */
+  width: 705px;
+  height: 61px;
+  display: flex;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.main {
+  background: rgb(0, 30, 54);
+  padding-top: 22px;
+}
+
+.h1_in_section1 {
+  /* 10 oyda yangi kasb o’rganing! */
+  /* position: absolute; */
+  width: 731px;
+  height: 154px;
+  margin: auto;
+  margin-top: 173px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: 0%;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.h2_in_section1 {
+  /* Buxorodagi eng sifatli dasturlash va kompyuter kurslari! */
+  /* position: absolute; */
+  width: 877px;
+  height: 78px;
+  margin: auto;
+  margin-top: 97px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 77px;
+}
+.section1 > button {
+  border-radius: 10px;
+
+  background: rgb(49, 168, 255);
+  /* call button */
+  width: 350px;
+  height: 70px;
+  margin: 77px auto 201px;
+
+  /* BEPUL KONSULTATSIYA! */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.section2 {
+  /* Rectangle 53 */
+  width: 1300px;
+  height: 650px;
+  margin: auto;
+  border-radius: 25px;
+  padding: 82px 65px;
+}
+
+.section2 h2 {
+  /* “SHIFT ACADEMY” BU - */
+  width: 705px;
+  height: 61px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.section3 {
+  /* Rectangle 53 */
+  /* width: 1400px; */
+  height: 410px;
+  margin: auto;
+}
+
+.section3 .carousel{
+  width: 1400px;
+  margin: auto;
+}
+
+.section_card {
+  /* Rectangle 1 */
+  width: 380px;
+  height: 250px;
+  border-radius: 15px;
+
+  box-shadow: inset -21px 21px 21px 0px rgba(255, 255, 255, 0.1),
+    inset 21px -21px 21px 0px rgba(165, 165, 165, 0.1);
+  backdrop-filter: blur(42px);
+  background: rgba(217, 217, 217, 0.1);
+  margin-top: 82px;
+  padding: 20px 26px 60px 20px;
+}
+
+.section_card p {
+  /* Akademiyamiz maqsadi zamonaviy kasblarga qiziqadigan va o'zini IT sohasida rivojlantirmoqchi bo'lgan yoshlar uchun sifatli ta'lim berish! */
+  width: 300px;
+  height: 104px;
+  display: flex;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 14px;
+}
+.w-99 {
+  height: 350px;
+  width: 350px;
+  margin: 100px auto;
+  display: block;
+  background-image: url("src/assets/image2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /* IMAGE */
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 15px;
+}
+
+.section4 h1 {
+  /* NIMA UCHUN “SHIFT ACADEMY”DA O’QISH KERAK? */
+  width: 1029px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 63px;
+}
+
+.section4 {
+  /* section 4 */
+  width: 1440px;
+  height: 900px;
+  padding: 68px 128px;
+  margin: auto;
+}
+
+.flex_in_section4 {
+  display: flex;
+  justify-content: center;
+  gap: 20px 24px;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+.flex_in_section4 > div {
+  /* Rectangle 3 */
+  width: 580px;
+  height: 200px;
+  border-radius: 15px;
+
+  box-shadow: inset -26px 26px 26px 0px rgba(255, 255, 255, 0.1),
+    inset 26px -26px 26px 0px rgba(165, 165, 165, 0.1);
+  backdrop-filter: blur(52px);
+  background: rgba(217, 217, 217, 0.1);
+  padding: 19px 20px 40px;
+}
+.flex_in_section4 div span {
+  /* LOREM IPSOM */
+  width: 184px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.d-flex.items-center {
+  gap: 30px;
+}
+
+.flex_in_section4 div p {
+  /* Lorem ipsom lorem ipsom lorem imsom */
+  width: 386px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 30px;
+}
+.section3 .carousel-item {
+  display: none;
+}
+.section3 .carousel-item div {
+  /* Rectangle 4 */
+  width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 15px;
+
+  background: rgb(255, 255, 255);
+  justify-content: center;
+
+  background: url("src\\assets\\SHIFTbrandbook.png");
+  background-position: center;
+  background-size: 340px 349px;
+  background-repeat: no-repeat;
+  background-color: white;
+  border: 10px white;
+}
+.section3 .carousel-item.active {
+  display: flex;
+}
+.section3 .carousel-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* padding-left: 10px; */
+
+  padding-top: 30px;
+}
+.section3 .carousel-inner .carousel-item img {
+  width: 100%;
+  height: auto;
+}
+.section3 .carousel-inner .carousel-item {
+  flex: 0 0 350px;
+  gap: 10px; /* 3 items per slide */
+  margin-left: -10px;
+  margin-bottom: 45px;
+}
+
+.section5 .carousel-item {
+  display: none;
+}
+.section5 .carousel-item.active {
+  display: flex;
+}
+.section5 .carousel-item.active div {
+  /* Rectangle 10 */
+  width: 304px;
+  height: 560px;
+  border-radius: 25px;
+
+  background: rgb(255, 255, 255);
+  padding: 250px 29px 41px;
+}
+
+/* .section5 h1 */
+
+.section5 .carousel-item.active h1 {
+  /* VIDEO */
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 183px;
+}
+.section5 .carousel-item.active button {
+  /* Rectangle 11 */
+  width: 250px;
+  height: 50px;
+
+  border-radius: 13px;
+
+  background: rgb(49, 168, 255);
+
+  /* NAME */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+.section5 .carousel-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 70px;
+  padding-top: 15px;
+}
+.section5 .carousel-inner .carousel-item img {
+  width: 100%;
+  height: auto;
+}
+.section5 .carousel-inner .carousel-item {
+  flex: 0 0 380px;
+  gap: 10px; /* 3 items per slide */
+  margin-bottom: 50px;
+}
+
+.section5 {
+  /* section 5 */
+  width: 1400px;
+  height: 750px;
+  /* padding: 80px 128px; */
+  padding: 10px;
+  margin: auto;
+}
+
+.carousel-control-next,
+  .carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+  text-transform: scale(2);
+}
+
+.section5 .carousel-control-next,
+.section5 .carousel-control-prev /*, .carousel-indicators */ {
+filter: invert(100%);
+text-transform: scale(2);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.section6 {
+  /* Rectangle 14 */
+  width: 1440px;
+  height: 700px;
+  padding: 60px 128px;
+  margin: auto;
+}
+
+.section6 h1 {
+  /* O’QUVCHILARNING FIKRLARI */
+  width: 1029px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 61px;
+}
+
+.section6 hr {
+  /* Line 1 */
+  width: 330px;
+  height: 0;
+  /* transform: rotate(-0.18deg); */
+  border: 2px solid rgb(255, 255, 255);
+  margin-top: 51px;
+  margin-bottom: 37px;
+}
+
+.section6 .d-flex {
+  gap: 20px;
+}
+
+.section6 .d-flex > div {
+  /* Rectangle 15 */
+  width: 380px;
+  height: 429px;
+  border-radius: 15px;
+
+  box-shadow: inset -26.97px 26.97px 26.97px 0px rgba(255, 255, 255, 0.1),
+    inset 26.97px -26.97px 26.97px 0px rgba(116, 116, 116, 0.1);
+  backdrop-filter: blur(53.93px);
+  background: rgba(153, 153, 153, 0.1);
+  padding: 28px 25px;
+}
+
+.section6 .d-flex div p {
+  /* lorem imsom lorem ipsom lorem imsom lorem ipsom lorem imsom lorem ipsom lorem imsom lorem ipsom lorem imsom lorem ipsom lorem imsom lorem ipsom lorem imsom lorem ipsom lorem imsom lorem ipsom lorem imsom lorem ipsom lorem imsom lorem imsom lorem ipsom lorem imsom lorem ipsom lorem imsom lorem ipsom lorem imsom */
+  width: 323px;
+  height: 144px;
+  display: flex;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.section6 .d-flex div .round_in_section6 {
+  /* Ellipse 13 */
+  width: 60px;
+  height: 60px;
+
+  background: rgb(217, 217, 217);
+  border-radius: 50%;
+}
+.section6 .d-flex div h2 {
+  /* DALER AXTAMOV */
+  width: 174px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 8px;
+}
+.section6 .d-flex div h3 {
+  /* SMM MENEJER */
+  width: 120px;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 1px;
+}
+
+.section7 {
+  /* Rectangle 56 */
+  width: 1400px;
+  height: 658px;
+
+  border-radius: 25px;
+
+  box-shadow: inset -68.6px 68.6px 68.6px 0px rgba(255, 255, 255, 0.1),
+    inset 68.6px -68.6px 68.6px 0px rgba(165, 165, 165, 0.1);
+  backdrop-filter: blur(137.2px);
+  background: rgba(217, 217, 217, 0.1);
+  margin: auto;
+  padding: 47px 110px;
+}
+
+.section7 .d-flex {
+  gap: 20px;
+}
+
+.section7 .d-flex div {
+  /* Rectangle 21 */
+  width: 380px;
+  height: 450px;
+  border-radius: 20px;
+
+  background: rgb(217, 217, 217);
+  padding: 49px 87px;
+}
+
+.section7 .d-flex div h2 {
+  /* DASTURLASH */
+  width: 206px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 122px;
+  /* margin-bottom: 122px; */
+}
+
+.section7 .d-flex div p {
+  /* ICON */
+  width: 76px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  margin: auto;
+}
+
+.section7 h1 {
+  /* BIZNING YO’NALISHLAR */
+  width: 520px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 44px;
+}
+
+.section8 {
+  width: 1440px;
+  padding: 58px 130px;
+  margin: auto;
+}
+
+.section8 .d-flex {
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.section8 h1 {
+  /* KURSLAR */
+  width: 520px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 55px;
+}
+
+.section8 .d-flex > div {
+  /* Rectangle 25 */
+  width: 580px;
+  height: 200px;
+  border-radius: 15px;
+
+  box-shadow: inset -26px 26px 26px 0px rgba(255, 255, 255, 0.1),
+    inset 26px -26px 26px 0px rgba(165, 165, 165, 0.1);
+  backdrop-filter: blur(52px);
+  background: rgba(217, 217, 217, 0.1);
+  padding: 28px;
+  gap: 34px;
+}
+
+.section8 .d-flex > div .round {
+  /* Rectangle 26 */
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+
+  background: rgb(255, 255, 255);
+}
+
+.section8 .d-flex > div h3 {
+  /* FRONTEND */
+  width: 138px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.section8 .d-flex > div h4 {
+  /* 10 OY */
+  width: 58px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 16px;
+}
+
+.section9 {
+  /* Rectangle 39 */
+  width: 1440px;
+  height: 951px;
+  background: rgb(0, 30, 54);
+  margin: 58px auto 0;
+  padding: 82px 130px;
+}
+
+.section9 > h1 {
+  /* BEPUL KONSULTATSIYA OLING! */
+  width: 616px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 61px;
+}
+
+.section9 > div > div {
+  /* Rectangle 40 */
+  width: 680px;
+  height: 651px;
+  border-radius: 20px;
+
+  background: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.section9 .card {
+  /* Rectangle 41 */
+  width: 480px;
+  height: 651px;
+  border-radius: 20px;
+
+  box-shadow: inset -37.7px 37.7px 37.7px 0px rgba(255, 255, 255, 0.1),
+    inset 37.7px -37.7px 37.7px 0px rgba(165, 165, 165, 0.1);
+  backdrop-filter: blur(75.4px);
+  background: rgba(217, 217, 217, 0.1);
+  padding: 41px 40px;
+}
+
+.section9 .card div {
+  /* Rectangle 43 */
+  width: 400px;
+  height: 294px;
+  border-radius: 15px;
+
+  background: rgb(255, 255, 255);
+  margin-bottom: 35px;
+}
+
+.section9 .card h1 {
+  /* BEPUL KONSULTATSIYA */
+  width: 372px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.section9 .card p {
+  /* Telefon raqamingizni yozib qoldiring, biz sizga qoʻngʻiroq qilamiz va birorta ham savolingiz javobsiz qolmasligiga harakat qilamiz */
+  width: 351px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 34px;
+}
+
+.section9 .card button {
+  /* Rectangle 42 */
+  width: 400px;
+  height: 81px;
+  border-radius: 15px;
+
+  background: rgb(49, 168, 255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.section9 .d-flex {
+  gap: 20px;
+}
+
+.section10 {
+  /* Rectangle 35 */
+  width: 1440px;
+  height: 830px;
+  background: rgb(0, 30, 54);
+  padding: 61px 130px;
+  margin: auto;
+}
+
+.section10 > h1 {
+  /* BIZNING MANZIL */
+  width: 331px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 65px;
+}
+
+.section10 div.i {
+  /* Rectangle 36 */
+  width: 780px;
+  height: 600px;
+  border-radius: 20px;
+
+  background: rgb(255, 255, 255);
+}
+
+.section10 > div > div > h1 {
+  /* BUXORO */
+  width: 129px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.section10 > div > div > div {
+  /* Rectangle 38 */
+  /* width: 340px; */
+/* Rectangle 38 */
+width: 340px;
+height: 200px;
+border-radius: 15px;
+
+background: rgb(255, 255, 255);
+margin-bottom: 48px;
+}
+
+.section10 > div > div > h2 {
+  /* MO’LJAL */
+  width: 150px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.section10 > div > div > h3 {
+  /* BUXORO KITOB OLAMI YONIDA */
+  width: 306px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 26px;
+}
+
+.section10 > div > div > hr {
+  /* Line 4 */
+  width: 340px;
+  height: 0;
+  border: 2px solid rgb(255, 255, 255);
+  margin-bottom: 28px;
+}
+
+.section10 .d-flex {
+  gap: 20px;
+}
+
+.section10 > div > div {
+  /* Rectangle 37 */
+  width: 390px;
+  height: 600px;
+
+  border-radius: 20px;
+
+  box-shadow: inset -32.67px 32.67px 32.67px 0px rgba(255, 255, 255, 0.1),
+    inset 32.67px -32.67px 32.67px 0px rgba(108, 108, 108, 0.1);
+  backdrop-filter: blur(65.33px);
+  background: rgba(143, 143, 143, 0.1);
+  padding: 24px 20px;
+}
+
+.footer {
+  /* Rectangle 63 */
+  width: 1400px;
+  height: 85px;
+
+  border-radius: 25px;
+
+  box-shadow: inset -52.83px 52.83px 52.83px 0px rgba(255, 255, 255, 0.1),
+    inset 52.83px -52.83px 52.83px 0px rgba(165, 165, 165, 0.1);
+  backdrop-filter: blur(105.67px);
+  background: rgba(217, 217, 217, 0.1);
+  margin: auto;
+  padding: 60px 45px 48px 110px;
+}
+
+.footer2 {
+  /* Rectangle 63 */
+  width: 1400px;
+  height: 85px;
+
+  border-radius: 25px;
+
+  box-shadow: inset -52.83px 52.83px 52.83px 0px rgba(255, 255, 255, 0.1),
+    inset 52.83px -52.83px 52.83px 0px rgba(165, 165, 165, 0.1);
+  backdrop-filter: blur(105.67px);
+  background: rgba(217, 217, 217, 0.1);
+  margin: auto;
+  padding: 60px 45px 48px 110px;
+  display: none !important;
+}
+
+.footer .d-flex .d-flex p {
+  /* © “SHIFT ACADEMY”, 2024 - Barcha huquqlar himoyalangan. */
+  width: 476px;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer .d-flex .flex p {
+  /* +998 94 124 00 41 */
+  width: 229px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer .d-flex .d-flex {
+  gap: 30px;
+}
+
+.footer .d-flex.gap-2 img {
+  width: 30px;
+  height: 30px;
+}
+.footer .d-flex.gap-2 img:first-child {
+  width: 35px;
+  height: 35px;
+}
+
+.footer .d-flex {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .d-flex.gap-2 {
+  justify-content: start;
+  align-items: center;
+}
+
+.footer .flex.flex-column.justify-center {
+  gap: 10px;
+}
+
+.section11 {
+  /* Rectangle 44 */
+  width: 1440px;
+  /* height: 225px; */
+
+  background: rgb(0, 30, 54);
+
+  padding: 0 0 21px;
+  margin: auto;
+}
+
+.section5 h1 {
+  /* “SHIFT ACADEMY” BU - */
+  width: 705px;
+  height: 61px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+  /* margin-left: 90px; */
+  margin-bottom: 82px;
+}
+.section5> h1 {
+  /* “SHIFT ACADEMY” BU - */
+  width: 705px;
+  height: 61px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 60px;
+  margin-bottom: 82px;
+}
+
+#root > div > div.section11 > div.footer > div > div.flex.flex-column.justify-center > div{
+  justify-content: end;
+  padding-right: 10px;
+}
+
+.sh{
+  max-width: 1440px;
+  /* margin: auto;
+  position: relative;
+  top: -100%; */
+}
+
+#root{
+  background: rgb(0, 30, 54)
+}
+
+
+.shadow1{
+  /* Ellipse 17 */
+position: absolute;
+width: 450px;
+height: 450px;
+left: -100.69px;
+top: 61px;
+transform: rotate(57.69deg);
+filter: blur(350px);
+background: linear-gradient(180.00deg, rgb(49, 168, 255),rgb(151, 90, 215) 99.99%,rgb(255, 10, 173) 100%);
+}
+
+.shadow2{
+  /* Ellipse 16 */
+position: absolute;
+width: 450px;
+height: 450px;
+left: 1000px;
+top: 986.36px;
+transform: rotate(-79.43deg);
+
+filter: blur(350px);
+background: linear-gradient(180.00deg, rgb(49, 168, 255),rgb(151, 90, 215) 99.99%,rgb(255, 10, 173) 100%);
+}
+
+.shadow3{
+  /* Ellipse 18 */
+position: absolute;
+width: 450px;
+height: 450px;
+left: -458px;
+top: 1725.36px;
+transform: rotate(-79.43deg);
+filter: blur(350px);
+background: linear-gradient(180.00deg, rgb(49, 168, 255),rgb(151, 90, 215) 99.99%,rgb(255, 10, 173) 100%);
+}
+
+.shadow4{
+  /* Ellipse 19 */
+position: absolute;
+width: 450px;
+height: 450px;
+left: 1000px;
+top: 2402.36px;
+transform: rotate(-79.43deg);
+
+filter: blur(350px);
+background: linear-gradient(180.00deg, rgb(49, 168, 255),rgb(151, 90, 215) 99.99%,rgb(255, 10, 173) 100%);
+}
+
+.shadow5{
+  /* Ellipse 20 */
+position: absolute;
+width: 450px;
+height: 450px;
+left: -397px;
+top: 3241.36px;
+transform: rotate(-79.43deg);
+
+filter: blur(350px);
+background: linear-gradient(180.00deg, rgb(49, 168, 255),rgb(151, 90, 215) 99.99%,rgb(255, 10, 173) 100%);
+}
+.shadow6{
+  /* Ellipse 21 */
+position: absolute;
+width: 450px;
+height: 450px;
+left: 1000px;
+top: 4245.36px;
+transform: rotate(-79.43deg);
+filter: blur(350px);
+background: linear-gradient(180.00deg, rgb(49, 168, 255),rgb(151, 90, 215) 99.99%,rgb(255, 10, 173) 100%);
+}
+
+.shadow7{
+  /* Ellipse 22 */
+position: absolute;
+width: 450px;
+height: 450px;
+left: -370px;
+top: 4839.36px;
+transform: rotate(-79.43deg);
+filter: blur(350px);
+background: linear-gradient(180.00deg, rgb(49, 168, 255),rgb(151, 90, 215) 99.99%,rgb(255, 10, 173) 100%);
+}
+
+.shadow8{
+  /* Ellipse 23 */
+position: absolute;
+width: 450px;
+height: 450px;
+left: 1000px;
+top: 5600.36px;
+transform: rotate(-79.43deg);
+filter: blur(350px);
+background: linear-gradient(180.00deg, rgb(49, 168, 255),rgb(151, 90, 215) 99.99%,rgb(255, 10, 173) 100%);
+}
+
+.shadow9{
+  /* Ellipse 24 */
+position: absolute;
+width: 450px;
+height: 450px;
+left: -327px;
+top: 6312.36px;
+transform: rotate(-79.43deg);
+filter: blur(350px);
+background: linear-gradient(180.00deg, rgb(49, 168, 255),rgb(151, 90, 215) 99.99%,rgb(255, 10, 173) 100%);
+}
+
+.shadow10{
+  /* Ellipse 25 */
+position: absolute;
+width: 450px;
+height: 450px;
+left: 1000px;
+top: 7100.36px;
+transform: rotate(-79.43deg);
+filter: blur(350px);
+background: linear-gradient(180.00deg, rgb(49, 168, 255),rgb(151, 90, 215) 99.99%,rgb(255, 10, 173) 100%);
+}
+
+.shadow11{
+  /* Ellipse 26 */
+position: absolute;
+width: 267.82px;
+height: 293.85px;
+left: -258px;
+top: 7300.28px;
+transform: rotate(-79.43deg);
+filter: blur(350px);
+background: linear-gradient(180.00deg, rgb(49, 168, 255),rgb(151, 90, 215) 99.99%,rgb(255, 10, 173) 100%);
+}
+
+
+@media (max-width: 400px) {
+
+  .shadow1,
+  .shadow2,
+  .shadow3,
+  .shadow4,
+  .shadow5,
+  .shadow6,
+  .shadow7,
+  .shadow8,
+  .shadow9,
+  .shadow10,
+  .shadow11{
+    display: none;
+  }
+
+  .bg_navbar button {
+    display: none;
+  }
+
+  .bg_navbar img {
+    /* logo1 2 */
+    position: absolute;
+    width: 100px;
+    height: 24.89px;
+    left: 110px;
+    top: 34px;
+  }
+
+  .section1 {
+    width: 300px;
+    height: 548px;
+    border-radius: 15px;
+
+    box-shadow: inset -78.67px 78.67px 78.67px 0px rgba(255, 255, 255, 0.1),
+      inset 78.67px -78.67px 78.67px 0px rgba(165, 165, 165, 0.1);
+    backdrop-filter: blur(4px);
+    background: rgba(217, 217, 217, 0.1);
+  }
+
+  .h1_in_section1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 97px;
+    width: 208px;
+    height: 117px;
+    display: flex;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .h2_in_section1 {
+    /* Buxorodagi eng sifatli dasturlash va kompyuter kurslari! */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 44px;
+    width: 279px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 96px;
+  }
+
+  .bg_navbar button {
+    /* BEPUL KONSULTATSIYA! */
+    display: none;
+  }
+
+  .section1 button{
+    /* call button */
+width: 200px;
+height: 40px;
+border-radius: 5px;
+
+background: rgb(49, 168, 255);
+display: flex;
+flex-direction: row;
+align-items: center;
+
+
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 14px;
+font-weight: 800;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+  }
+
+  .bg_navbar button {
+    /* BEPUL KONSULTATSIYA! */
+    display: none;
+  }
+
+  .section2 h2 {
+    /* “SHIFT ACADEMY” BU - */
+    width: 245px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 22px;
+    margin-bottom: 18px;
+  }
+  .section2 {
+    padding-left: 0;
+    padding-top: 0;
+    width: 300px;
+    height: 648px;
+  }
+
+  .section2 .section_card {
+    /* Rectangle 6 */
+    width: 300px;
+    height: 180px;
+    border-radius: 15px;
+
+    box-shadow: inset -21px 21px 21px 0px rgba(255, 255, 255, 0.1),
+      inset 21px -21px 21px 0px rgba(165, 165, 165, 0.1);
+    backdrop-filter: blur(8px);
+    background: rgba(217, 217, 217, 0.1);
+    margin-top: 0;
+    padding: 8px 8px;
+  }
+
+  .section2 .section_card p {
+    /* Akademiyamiz maqsadi zamonaviy kasblarga qiziqadigan va o'zini IT sohasida rivojlantirmoqchi bo'lgan yoshlar uchun sifatli ta'lim berish! */
+    width: 250px;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 2px;
+  }
+  .section2 .d-flex.gap-4 {
+    flex-direction: column;
+  }
+
+  .section3 {
+    /* Rectangle 69 */
+    width: 320px;
+    height: 200px;
+    box-shadow: inset -21px 21px 21px 0px rgba(255, 255, 255, 0.1),
+      inset 21px -21px 21px 0px rgba(165, 165, 165, 0.1);
+    backdrop-filter: blur(8px);
+    background: rgba(217, 217, 217, 0.1);
+  }
+
+  .section3 .carousel-item div {
+    display: none;
+  }
+  .section3 .carousel-item div:first-child {
+    display: flex;
+    /* Rectangle 7 */
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+    margin: auto;
+
+    /* background: rgb(255, 255, 255); */
+    background: url("src\\assets\\SHIFTbrandbook.png");
+    background-position: center;
+    background-size: 134px 134px;
+    background-repeat: no-repeat;
+    background-color: white;
+  }
+
+  .section4 h1 {
+    /* NIMA UCHUN “SHIFT ACADEMY”DA O’QISH KERAK? */
+    width: 292px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 16px;
+    margin-bottom: 19px;
+    margin-top: 16px !important;
+  }
+
+  .section4 {
+    /* Rectangle 69 */
+    width: 320px;
+    height: 809px;
+    padding-left: 10px;
+    padding-top: 16px;
+    padding-bottom: 22px;
+    padding-right: 0;
+  }
+
+  .flex_in_section4 {
+    padding-left: 0px;
+    justify-content: start;
+    width: 320px;
+  }
+
+  .section4 .flex_in_section4 > div {
+    /* Rectangle 13 */
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+
+    box-shadow: inset -26px 26px 26px 0px rgba(255, 255, 255, 0.1),
+      inset 26px -26px 26px 0px rgba(165, 165, 165, 0.1);
+    backdrop-filter: blur(52px);
+    background: rgba(217, 217, 217, 0.1);
+  }
+
+  .flex_in_section4 > div img {
+    /* Ellipse 20 */
+    width: 25px;
+    height: 25px;
+
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+  }
+
+  .flex_in_section4 > div span {
+    /* LOREM IPSOM */
+    width: 113px;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .flex_in_section4 .d-flex.items-center {
+    gap: 9px;
+    margin-bottom: 13px;
+    flex-direction: row;
+  }
+
+  .flex_in_section4 div p {
+    /* Lorem ipsom lorem ipsom lorem imsom */
+    width: 250px;
+    height: 15px;
+    /* display: flex;
+  flex-direction: row;
+  align-items: center; */
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 0;
+  }
+
+
+  .section5 {
+    /* Rectangle 69 */
+    width: 320px;
+    /* height: 200px; */
+    padding-left: 10px;
+  }
+
+  .section5 h1 {
+    /* O’QUVCHILARNING FIKRLARI */
+    width: 261px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 22px;
+  }
+
+  .section5 .carousel-inner {
+    padding-left: 0;
+    width: 298px;
+  }
+
+  .section5 #multiItemCarousel1 {
+    width: 300px;
+  }
+
+  .section5 .carousel-control-prev,
+  .section5 .carousel-control-next {
+    justify-content: start;
+  }
+
+  .section5 .carousel-item img {
+    display: none;
+  }
+  .section5 .carousel-item img:first-child {
+    /* Rectangle 18 */
+    width: 190px;
+    height: 350px;
+    border-radius: 10px;
+
+    background: rgb(255, 255, 255);
+  }
+
+  .section5 .carousel-item h1 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 32px;
+    margin-bottom: 180px;
+  }
+
+  .section6 {
+    padding: 60px 0;
+    width: 320px;
+    height: 830px;
+  }
+
+  .section6 .d-flex div h2 {
+    width: 184px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 0px;
+}
+
+  .section6 > h1 {
+    /* O’QUVCHILARNING FIKRLARI */
+    width: 261px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+
+  .section6 .d-flex div {
+    /* Rectangle 64 */
+    width: 320px;
+    height: 210px;
+  }
+
+  .section6 .d-flex > div > div {
+    gap: 10px;
+    height: max-content !important;
+    align-items: center;
+  }
+
+  .section6 .d-flex {
+    flex-direction: column;
+  }
+
+  .section6 .d-flex div p {
+    /* lorem imsom lorem ipsom lorem imsom lorem ipsom lorem imsom lorem ipsom lorem imsom lorem ipsom lorem imsom lorem ipsom lorem imsom lorem ipsom lorem ipsom lorem ipsom lorem imsom lorem ipsom lorem ipsom lorem ipsom */
+    width: 252px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .section6 .d-flex div hr {
+    /* Line 6 */
+    width: 260px;
+    height: 0;
+    margin-top: 27px;
+    margin-bottom: 26px;
+  }
+
+  .section6 .d-flex div > div {
+    display: flex;
+  }
+
+  .for_c {
+    width: 200px !important;
+    height: max-content !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section6 .d-flex div .round_in_section6 {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev /*, .carousel-indicators */ {
+    /* color: rgb(0, 0, 0); */
+  filter: invert(0%);
+  text-transform: scale(2);
+}
+
+  .section7 {
+    /* Rectangle 64 */
+    width: 320px;
+    height: 840px;
+    border-radius: 15px;
+
+    box-shadow: inset -68.6px 68.6px 68.6px 0px rgba(255, 255, 255, 0.1),
+      inset 68.6px -68.6px 68.6px 0px rgba(165, 165, 165, 0.1);
+    backdrop-filter: blur(137.2px);
+    background: rgba(217, 217, 217, 0.1);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section7 .d-flex {
+    flex-direction: column;
+    width: 310px;
+  }
+
+  .section7 .d-flex > div {
+    /* Rectangle 64 */
+    width: 280px;
+    height: 220px;
+
+    border-radius: 10px;
+
+    background: rgb(217, 217, 217);
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 18px;
+  }
+
+  .section7 > h1 {
+    /* BIZNING YO’NALISHLAR */
+    width: 270px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .section7 .d-flex > div h2 {
+    /* KOMPYUTER SAVODXONLIGI */
+    width: 218px;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .section7 .d-flex > div p {
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 62px;
+  }
+
+  .section7 .d-flex > div h3 {
+    text-align: center;
+  }
+
+  .section8 {
+    padding-left: 16px;
+    width: 320px;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-top: 0;
+  }
+  .section8 > h1 {
+    /* KURSLAR */
+    width: 242px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 29px;
+    margin-bottom: 29px;
+  }
+
+  .section8 .d-flex {
+    flex-direction: column;
+    gap: 20px;
+    width: 320px;
+  }
+
+  .section8 .flex {
+    /* Rectangle 64 */
+    width: 300px !important;
+    height: 100px !important;
+    border-radius: 10px;
+
+    box-shadow: inset -26px 26px 26px 0px rgba(255, 255, 255, 0.1),
+      inset 26px -26px 26px 0px rgba(165, 165, 165, 0.1);
+    backdrop-filter: blur(52px);
+    background: rgba(217, 217, 217, 0.1);
+  }
+
+  .section8 .flex .round {
+    /* Rectangle 64 */
+    width: 40px !important;
+    height: 40px !important;
+
+    border-radius: 5px;
+
+    background: rgb(255, 255, 255);
+  }
+
+  .section8 .flex h3 {
+    /* FRONTEND */
+    width: 83px !important;
+    height: 18px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px !important;
+    font-weight: 700;
+    line-height: 18px !important;
+    letter-spacing: 0%;
+    text-align: left;
+
+    margin-top: 0 !important;
+  }
+  .section8 .flex h4 {
+    /* 10 OY */
+    width: 35px !important;
+    height: 15px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 12px !important;
+    font-weight: 700;
+    line-height: 15px !important;
+    letter-spacing: 0%;
+    text-align: left;
+
+    margin-top: 0 !important;
+  }
+
+  .section9 {
+    padding: 0;
+    width: 320px;
+    height: 390px;
+  }
+
+  .section9 h1 {
+    display: none;
+  }
+  .section9 img {
+    /* Rectangle 64 */
+    width: 280px !important;
+    height: 180px !important;
+    border-radius: 10px;
+
+    background: rgb(255, 255, 255);
+    margin-bottom: 25px;
+  }
+
+  .section9 .card {
+    padding: 20px;
+    width: 320px;
+  }
+
+  .section9 .card h1 {
+    /* BEPUL KONSULTATSIYA */
+    width: 245px !important;
+    height: 24px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px !important;
+    font-weight: 700;
+    line-height: 24px !important;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .section9 p {
+    /* Telefon raqamingizni yozib qoldiring, biz sizga qoʻngʻiroq qilamiz va birorta ham savolingiz javobsiz qolmasligiga harakat qilamiz */
+    width: 238px !important;
+    height: 35px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 10px !important;
+    font-weight: 700;
+    line-height: 12px !important;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 37px;
+  }
+  .section9 button {
+    /* Rectangle 64 */
+    width: 280px !important;
+    height: 40px !important ;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 17px !important;
+    font-weight: 700;
+    line-height: 21px !important;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 10px !important;
+  }
+  .section9 > .d-flex > div:first-child {
+    display: none;
+  }
+
+  #root > div > div.section9 > div > div.card > div{
+    /* Rectangle 64 */
+width: 280px;
+height: 180px;
+border-radius: 10px;
+
+background: rgb(255, 255, 255);
+  }
+
+  .section9 .card {
+    height: 400px !important;
+  }
+
+  .section10 {
+    width: 300px;
+    height: max-content;
+    padding: 0;
+    margin-bottom: 25px;
+  }
+  .section10 div.i {
+    width: 300px;
+    height: 300px;
+    border: none;
+    overflow: hidden;
+  }
+
+  .section10 .card{
+    height: 470px;
+    width: 310px;
+  }
+
+  #root > div > div.section10 > div > div.card > div{
+    /* Rectangle 64 */
+width: 270px;
+height: 150px;
+
+border-radius: 10px;
+
+background: rgb(255, 255, 255);
+margin-bottom: 0;
+  }
+
+  .section10 > h1 {
+    /* BIZNING MANZIL */
+    width: 227px !important;
+    height: 30px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 25px !important;
+    font-weight: 700;
+    line-height: 30px !important;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 41px;
+    margin-bottom: 15px;
+  }
+
+  .section10 > div > div > h2 {
+    /* width: 150px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left; */
+    margin-bottom: 5px;
+    margin-top: 30px;
+  }
+
+  .section10 hr{
+    width: 270px !important;
+  }
+
+  .section10 .card h1 {
+    /* BUXORO */
+    width: 99px !important;
+    height: 28px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 23px !important;
+    font-weight: 700;
+    line-height: 28px !important;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .section10 h2 {
+    /* MO’LJAL */
+    width: 75px !important;
+    height: 18px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px !important;
+    font-weight: 700;
+    line-height: 18px !important;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .section10 .card h3 {
+    width: 229px !important;
+    height: 18px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px !important;
+    font-weight: 700;
+    line-height: 18px !important;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .section10 .d-flex {
+    flex-direction: column;
+  }
+
+  .section11 {
+    width: 300px;
+    /* height: 1000px; */
+    padding: 0;
+    padding-bottom: 10px;
+  }
+
+  .footer .flex, .d-flex{
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .footer{
+    /* Rectangle 64 */
+width: 300px;
+height: 200px;
+  }
+
+  .d-flex.h-100{
+    height: max-content;
+  }
+
+  .footer{
+    display: none;
+  }
+  .footer2{
+    display: block !important;
+width: 310px;
+height: 200px;
+border-radius: 15px;
+
+box-shadow: inset -52.83px 52.83px 52.83px 0px rgba(255, 255, 255, 0.1),inset 52.83px -52.83px 52.83px 0px rgba(165, 165, 165, 0.1) !important;
+backdrop-filter: blur(105.67px) !important;
+background: rgba(217, 217, 217, 0.1) !important;
+align-items: start;
+padding: 19px 11px;
+gap: 20px;
+  }
+  .footer2 p{
+    /* © “SHIFT ACADEMY”, 2024 - Barcha huquqlar himoyalangan. */
+width: 250px;
+height: 24px;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 10px;
+font-weight: 700;
+line-height: 12px;
+letter-spacing: 0%;
+text-align: left;
+  }
+
+  .footer2 img{
+    margin-bottom: 25px;
+  }
+
+  .footer2.card{
+    border-radius: 20px;
+  }
+
+  /* #root{
+    overflow: hidden;
+  } */
+
+    .carousel{
+      width: 320px !important;
+    }
+}
