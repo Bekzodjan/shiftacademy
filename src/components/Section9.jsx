@@ -5,7 +5,7 @@ const Section9 = () => {
         <div className='section9'>
             <h1>BEPUL KONSULTATSIYA OLING!</h1>
             <div className="d-flex">
-                {/* <img src="src\assets\SHIFTbrandbook.png" alt="" width={680} /> */}
+                {/* <img src=".\ShifTbrandbook.png" alt="" width={680} /> */}
                 <div></div>
                 <div className="card">
                     {/* <img src="src\assets\LOGO2.png" alt="" /> */}

@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='footer'>
             <div className="d-flex h-100">
                 <div className='d-flex'>
-                    <img src="src\assets\SHIFTbrandbook.png" alt="" width={75} />
+                    <img src=".\ShifTbrandbook.png" alt="" width={75} />
                     <p>© “SHIFT ACADEMY”, 2024 - Barcha huquqlar himoyalangan.</p>
                 </div>
                 <div className='flex flex-column justify-center'>
