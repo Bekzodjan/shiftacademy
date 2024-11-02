@@ -328,7 +328,7 @@
   background: rgb(255, 255, 255);
   justify-content: center;
 
-  background: url("src\\assets\\SHIFTbrandbook.png");
+  background: url(".\\SHIFTbrandbook.png");
   background-position: center;
   background-size: 340px 349px;
   background-repeat: no-repeat;
@@ -1472,7 +1472,7 @@ text-transform: uppercase;
     margin: auto;
 
     /* background: rgb(255, 255, 255); */
-    background: url("src\\assets\\SHIFTbrandbook.png");
+    background: url(".\\SHIFTbrandbook.png");
     background-position: center;
     background-size: 134px 134px;
     background-repeat: no-repeat;
