@@ -9,21 +9,21 @@ const Section7 = () => {
                     <h2>DASTURLASH</h2>
                     <h3>
                         <p>ICON</p>
-                        {/* <img src="src/assets/removed.png" alt="" width={200} /> */}
+                        {/* <img src="./removed.png" alt="" width={200} /> */}
                     </h3>
                 </div>
                 <div>
                     <h2>MARKETING</h2>
                     <h3>
                         <p>ICON</p>
-                        {/* <img src="src/assets/removed2.png" alt="" className='d-block' width={300} height={300} /> */}
+                        {/* <img src="./removed2.png" alt="" className='d-block' width={300} height={300} /> */}
                     </h3>
                 </div>
                 <div>
                     <h2>KOMPYUTER SAVODXONLIGI</h2>
                     <h3>
                         <p>ICON</p>
-                        {/* <img src="src/assets/komp.jpg" alt="" className='rounded-5' /> */}
+                        {/* <img src="./komp.jpg" alt="" className='rounded-5' /> */}
                     </h3>
                 </div>
             </div>

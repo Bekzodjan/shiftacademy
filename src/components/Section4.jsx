@@ -7,7 +7,7 @@ const Section4 = () => {
       <div className="flex_in_section4">
         <div>
           <div className="d-flex items-center">
-            <img src="src/assets/image.png" alt="" width={50} />
+            <img src="./image.png" alt="" width={50} />
             <span>LOREM IPSOM</span>
           </div>
           <p>
@@ -16,7 +16,7 @@ const Section4 = () => {
         </div>
         <div>
           <div className="d-flex items-center">
-            <img src="src/assets/image.png" alt="" width={50} />
+            <img src="./image.png" alt="" width={50} />
             <span>LOREM IPSOM</span>
           </div>
           <p>
@@ -25,7 +25,7 @@ const Section4 = () => {
         </div>
         <div>
           <div className="d-flex items-center">
-            <img src="src/assets/image.png" alt="" width={50} />
+            <img src="./image.png" alt="" width={50} />
             <span>LOREM IPSOM</span>
           </div>
           <p>
@@ -34,7 +34,7 @@ const Section4 = () => {
         </div>
         <div>
           <div className="d-flex items-center">
-            <img src="src/assets/image.png" alt="" width={50} />
+            <img src="./image.png" alt="" width={50} />
             <span>LOREM IPSOM</span>
           </div>
           <p>
@@ -43,7 +43,7 @@ const Section4 = () => {
         </div>
         <div>
           <div className="d-flex items-center">
-            <img src="src/assets/image.png" alt="" width={50} />
+            <img src="./image.png" alt="" width={50} />
             <span>LOREM IPSOM</span>
           </div>
           <p>
@@ -52,7 +52,7 @@ const Section4 = () => {
         </div>
         <div>
           <div className="d-flex items-center">
-            <img src="src/assets/image.png" alt="" width={50} />
+            <img src="./image.png" alt="" width={50} />
             <span>LOREM IPSOM</span>
           </div>
           <p>

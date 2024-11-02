@@ -206,7 +206,7 @@
   width: 350px;
   margin: 100px auto;
   display: block;
-  background-image: url("src/assets/image2.png");
+  background-image: url("./image2.png");
   background-repeat: no-repeat;
   background-position: center;
 

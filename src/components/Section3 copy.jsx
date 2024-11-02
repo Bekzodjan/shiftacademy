@@ -8,7 +8,7 @@ const Section3 = () => {
   <div className="carousel-inner">
     <div className="carousel-item active">
     <div className="card">
-    <img src="src/assets/logo1.png" className="d-block w-100" alt="..."/>
+    <img src="./logo1.png" className="d-block w-100" alt="..."/>
     <div className="card-body">
         <h5 className="card-title">Card title 2</h5>
         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -19,7 +19,7 @@ const Section3 = () => {
     </div>
     <div className="carousel-item">
     <div className="card">
-    <img src="src/assets/logo1.png" className="d-block w-100" alt="..."/>
+    <img src="./logo1.png" className="d-block w-100" alt="..."/>
     <div className="card-body">
         <h5 className="card-title">Card title 2</h5>
         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -30,7 +30,7 @@ const Section3 = () => {
     </div>
     <div className="carousel-item">
     <div className="card">
-    <img src="src/assets/logo1.png" className="d-block w-100" alt="..."/>
+    <img src="./logo1.png" className="d-block w-100" alt="..."/>
     <div className="card-body">
         <h5 className="card-title">Card title 2</h5>
         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the

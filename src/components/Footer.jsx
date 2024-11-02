@@ -10,9 +10,9 @@ const Footer = () => {
                 </div>
                 <div className='flex flex-column justify-center'>
                     <div className="d-flex gap-2">
-                        <img src="src/assets/ig.svg" alt="" width={40} />
-                        <img src="src/assets/face.png" alt="" width={30} />
-                        <img src="src/assets/link.png" alt="" width={30} />
+                        <img src="./ig.svg" alt="" width={40} />
+                        <img src="./face.png" alt="" width={30} />
+                        <img src="./link.png" alt="" width={30} />
                     </div>
                     <p>+998 94 124 00 41</p>
                 </div>
